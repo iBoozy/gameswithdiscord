@@ -1,44 +1,36 @@
-@-webkit-keyframes bzybg1 {
-    0%{background-position:0% 14%}
-    50%{background-position:100% 87%}
-    100%{background-position:0% 14%}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
-@-moz-keyframes bzybg1 {
-    0%{background-position:0% 14%}
-    50%{background-position:100% 87%}
-    100%{background-position:0% 14%}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
-@-o-keyframes bzybg1 {
-    0%{background-position:0% 14%}
-    50%{background-position:100% 87%}
-    100%{background-position:0% 14%}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
-@keyframes bzybg1 {
-    0%{background-position:0% 14%}
-    50%{background-position:100% 87%}
-    100%{background-position:0% 14%}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
+
+
+
+
+
 
 * {
     box-sizing: border-box;
 }
 
-/* Create two unequal columns that floats next to each other */
-.column {
-    float: left;
-    padding: 10px;
 
-}
-
-.left {
-  width: 25%;
-  height: 100vh ;
-}
-
-.right {
-  width: 75%;
-  height: 100vh ;
-}
 
 /* Clear floats after the columns */
 .row:after {
@@ -51,46 +43,38 @@ body{
   height: 100vh ; 
 	width:100%;
 	margin:0px;
-	padding:0px;
+	padding:110px;
 	
-background: linear-gradient(136deg, #abec8d, #5dc6be, #8975b9, #6e5894, #d4b080);
-background-size: 1000% 1000%;
--webkit-animation: bzybg1 59s ease infinite;
--moz-animation: bzybg1 59s ease infinite;
--o-animation: bzybg1 59s ease infinite;
-animation: bzybg1 59s ease infinite;
+	background: linear-gradient(270deg, #728699, #58abd2, #6b76b2, #6bb2a9);
+background-size: 800% 800%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+-o-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+	
+
 	}
 
-#elem{
-    height: 100vh;
-}
 
-h2.responsive-text{
-    font-size: 6vh;
-}
-
-#header
-{
-height: 100vh;  /* 100vh is 100% from viewport (browser window) */
-
-}
 
 .header {
     text-align: center;
-    padding: 32px;
+    padding: 122px;
+	margin-top: -200px;
 }
 
 
 
 div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 0px solid blue;
     float: left;
     width: 250px;
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+    border: 0px solid #777;
 }
 
 div.gallery img {
@@ -100,6 +84,6 @@ div.gallery img {
 }
 
 div.desc {
-    padding: 15px;
+    padding: 25px;
     text-align: center;
 }
