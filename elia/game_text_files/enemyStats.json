@@ -1,0 +1,10 @@
+{ "enemies" : [
+        { "name" : "ground spitter", "hp" : "75", "def" : "17", "pow" : "19"},
+        { "name" : "petunia", "hp" : "44", "def" : "4", "pow" : "12"},
+        { "name" : "shagdaw", "hp" : "40", "def" : "7", "pow" : "16"},
+        { "name" : "spiked squisher", "hp" : "14", "def" : "13", "pow" : "8"},
+        { "name" : "fanged squisher", "hp" : "8", "def" : "2", "pow" : "4"},
+        { "name" : "squisher", "hp" : "5", "def" : "1", "pow" : "1"},
+		{ "name" : "crab", "hp" : "47", "def" : "30", "pow" : "22"},
+		{ "name" : "armed dillo", "hp" : "65", "def" : "40", "pow" : "30"}
+]}

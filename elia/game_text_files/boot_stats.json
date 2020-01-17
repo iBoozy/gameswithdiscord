@@ -1,0 +1,17 @@
+{ "items" : [
+        { "name" : "socks", "def" : "1"},
+        { "name" : "princess slippers", "def" : "3", "mag" : "3"},
+        { "name" : "dress shoes", "def" : "4", "mag" : "3"},
+        { "name" : "red sandles", "def" : "4", "arch" : "4"},
+        { "name" : "sports sneakers", "def" : "4", "arch" : "1"},
+        { "name" : "ice skates", "def" : "5", "str" : "3"},
+        { "name" : "fencing shoes", "def" : "6", "str" : "1"},
+        { "name" : "brown boots", "def" : "7", "str" : "1"},
+        { "name" : "sport cleats", "def" : "7", "str" : "4", "arch" : "2"},
+        { "name" : "lawman boots", "def" : "8", "art" : "2"},
+        { "name" : "police boots", "def" : "10", "str" : "2", "art" : "4"},
+		{ "name" : "ninja socks", "def" : "3", "str" : "3", "mag" : "1"},
+		{ "name" : "witch shoes", "def" : "4", "mag" : "4", "str" : "1"},
+		{ "name" : "bowman shoes", "def" : "5", "arch" : "6"},
+		{ "name" : "wolf shoes", "def" : "5", "str" : "4"}
+]}

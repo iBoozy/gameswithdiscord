@@ -1,0 +1,7 @@
+{ "items" : [
+        { "name" : "arrow", "load" : "True", "cost" : "1"},
+        { "name" : "blueberries", "heal" : "8"},
+        { "name" : "bullet", "load" : "True", "cost" : "1"},
+        { "name" : "cherries", "mpHeal" : "7"},
+		{ "name" : "grenade", "load" : "True", "cost" : "2", "pickup" : false}
+]}
